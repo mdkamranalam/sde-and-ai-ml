@@ -1,1 +1,1 @@
-# sde-and-ai-ml
+# SDE and AIML
