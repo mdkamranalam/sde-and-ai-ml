@@ -1,0 +1,226 @@
+# ==============================================================================
+# Global .gitignore for sde_and_ai_ml Repository
+# Covers: Operating Systems, IDEs, Java/JVM, Python/AI/ML, C++, Secrets, & Web
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Operating System Files
+# ------------------------------------------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# ------------------------------------------------------------------------------
+# 2. IDEs & Text Editors
+# ------------------------------------------------------------------------------
+# IntelliJ IDEA / JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+classes/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Eclipse
+.project
+.classpath
+.settings/
+.springBeans
+.sts4-cache
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# General text editors / temporary swap files
+*.swp
+*.swo
+*~
+*.bak
+.history/
+
+# ------------------------------------------------------------------------------
+# 3. Java & JVM Ecosystem (Maven, Gradle, JVM Crash Logs)
+# ------------------------------------------------------------------------------
+# Compiled class files
+*.class
+
+# Package archives (allow maven/gradle wrapper jars)
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/.maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# JVM crash logs and heap dumps
+hs_err_pid*
+replay_pid*
+*.hprof
+
+# ------------------------------------------------------------------------------
+# 4. Python, AI / ML, Data Science & Generative AI
+# ------------------------------------------------------------------------------
+# Bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# Testing, typing, and linting caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Machine Learning model weights & checkpoints (Prevent large binary bloat)
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+*.ckpt
+*.h5
+*.tflite
+*.joblib
+*.pkl
+*.pickle
+
+# ML experiment trackers & profiling logs
+wandb/
+.mlflow/
+lightning_logs/
+runs/
+events.out.tfevents.*
+
+# HuggingFace & Torch local download caches
+.cache/
+hf_cache/
+
+# ------------------------------------------------------------------------------
+# 5. C / C++ (DSA & Low-Level Programming)
+# ------------------------------------------------------------------------------
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.dylib
+*.a
+
+# ------------------------------------------------------------------------------
+# 6. Environment Variables, Secrets & Credentials (Security First)
+# ------------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+!.env.template
+*.env
+*.pem
+*.key
+*.cert
+*.p12
+*.jks
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# Database local dumps & SQLite local instances
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+
+# ------------------------------------------------------------------------------
+# 7. Node.js & Web Tooling (If used in backend/devops)
+# ------------------------------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.next/
+.turbo/
+
